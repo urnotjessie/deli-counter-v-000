@@ -16,4 +16,4 @@ def take_a_number(katz_deli, customer)
     puts "Welcome, #{customer}. You are number #{katz_deli.index(customer) + 1} in line."
 end
 
-def now_serving
+def now_serving(katz_deli)
