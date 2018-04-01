@@ -22,3 +22,5 @@ def now_serving(katz_deli)
     else
         first = katz_deli.pop
         puts "Currently serving #{first}"
+    end
+end
